@@ -1,5 +1,6 @@
 import { PortfolioMain } from "@/components/portfolio-shell";
 import { SectionHeading } from "@/components/section-heading";
+import { p } from "framer-motion/client";
 
 export default function AccessibilityPage() {
   return (

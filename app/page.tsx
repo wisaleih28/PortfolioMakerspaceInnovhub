@@ -30,26 +30,26 @@ export default function HomePage() {
   return (
     <main id="main-content" className="min-h-screen bg-[var(--bg-page)] text-[var(--text-primary)] font-mono">
       <section className="border-b-8 border-[var(--border-default)]">
-        <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 py-16 sm:px-6 lg:grid-cols-2 lg:py-24 lg:px-8">
+        <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 py-12 sm:px-6 lg:grid-cols-2 lg:py-24 lg:px-8">
           <div>
-            <p className="inline-block border-2 border-[var(--border-default)] bg-[var(--accent)] px-2 py-1 text-xs font-black uppercase tracking-widest text-[var(--bg-page)] shadow-[4px_4px_0px_0px_var(--border-default)]">Professional Portfolio</p>
-            <h1 className="mt-6 text-5xl font-black uppercase leading-[0.9] tracking-tighter sm:text-7xl">
+            <p className="inline-block border-2 border-[var(--border-default)] bg-[var(--accent)] px-2 py-1 text-xs font-black uppercase tracking-widest text-white shadow-[4px_4px_0px_0px_var(--border-default)]">Professional Portfolio</p>
+            <h1 className="mt-6 text-4xl font-black uppercase leading-[0.9] tracking-tighter sm:text-6xl md:text-7xl">
               Im Wesley Lebusta, Frontend Dev
             </h1>
             <p className="mt-6 max-w-xl text-base font-bold leading-relaxed text-[var(--text-primary)] sm:text-lg uppercase">
               I build clean and performant digital products using a modular, data-driven workflow. This portfolio
               showcases internship outputs, case highlights, and weekly activity logs.
             </p>
-            <div className="mt-8 flex flex-wrap gap-4">
+            <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:flex-wrap">
               <Link
                 href="/work"
-                className="inline-flex min-h-14 items-center border-4 border-[var(--border-default)] bg-[var(--accent)] px-8 text-base font-black uppercase text-[var(--bg-page)] shadow-[8px_8px_0px_0px_var(--border-default)] hover:translate-x-[8px] hover:translate-y-[8px] hover:shadow-none transition-all"
+                className="inline-flex min-h-14 items-center justify-center border-4 border-[var(--border-default)] bg-[var(--accent)] px-8 text-base font-black uppercase text-white shadow-[8px_8px_0px_0px_var(--border-default)] hover:translate-x-[8px] hover:translate-y-[8px] hover:shadow-none transition-all"
               >
                 Browse Portfolio
               </Link>
               <Link
                 href="/logs"
-                className="inline-flex min-h-14 items-center border-4 border-[var(--border-default)] bg-[var(--accent)] px-8 text-base font-black uppercase text-white shadow-[8px_8px_0px_0px_var(--border-default)] hover:translate-x-[8px] hover:translate-y-[8px] hover:shadow-none transition-all"
+                className="inline-flex min-h-14 items-center justify-center border-4 border-[var(--border-default)] bg-[var(--accent)] px-8 text-base font-black uppercase text-white shadow-[8px_8px_0px_0px_var(--border-default)] hover:translate-x-[8px] hover:translate-y-[8px] hover:shadow-none transition-all"
               >
                 View Weekly Logs
               </Link>
@@ -57,7 +57,7 @@ export default function HomePage() {
           </div>
 
           <div className="flex items-center justify-center">
-            <div className="relative h-64 w-64 overflow-hidden rounded-full border-8 border-[var(--border-default)] shadow-[12px_12px_0px_0px_var(--border-default)] sm:h-80 sm:w-80">
+            <div className="relative h-48 w-48 overflow-hidden rounded-full border-8 border-[var(--border-default)] shadow-[12px_12px_0px_0px_var(--border-default)] sm:h-64 sm:w-64 md:h-80 md:w-80">
               <Image src="/images/profile/profile-photo.jpg" alt="Wesley Lebusta Profile Photo" fill className="object-cover" priority />
             </div>
           </div>

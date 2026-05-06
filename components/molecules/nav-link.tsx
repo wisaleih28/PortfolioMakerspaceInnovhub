@@ -16,7 +16,7 @@ export function NavLink({ href, label }: NavLinkProps) {
     <Link
       href={href}
       aria-current={isActive ? "page" : undefined}
-      className={`inline-flex min-h-12 items-center px-6 text-sm font-black uppercase transition-all border-4 border-[var(--text-primary)] ${
+      className={`inline-flex min-h-12 items-center justify-center px-4 text-xs font-black uppercase transition-all border-4 border-[var(--text-primary)] sm:px-6 sm:text-sm ${
         isActive
           ? "bg-[var(--accent)] text-[var(--accent-soft-text)] shadow-none translate-x-[4px] translate-y-[4px]"
           : "bg-transparent text-[var(--text-primary)] shadow-[4px_4px_0px_0px_var(--text-primary)] hover:shadow-none hover:translate-x-[4px] hover:translate-y-[4px]"
