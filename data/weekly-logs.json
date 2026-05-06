@@ -1,0 +1,132 @@
+[
+  {
+    "week": 1,
+    "slug": "week-01-orientation-and-pandachain-onboarding",
+    "title": "Orientation and PandaChain DMS Onboarding",
+    "dateRange": "Feb 9 - Feb 14, 2026",
+    "focus": "Onboarding, repository familiarization, and initial PandaChain DMS frontend work.",
+    "outcomes": [
+      "Completed orientation and full-stack interview assessment",
+      "Explored GitHub workflows and started PandaChain DMS login/signup UI",
+      "Attended training sessions on SOLID principles, vibing, and Git 101"
+    ],
+    "blockers": []
+  },
+  {
+    "week": 2,
+    "slug": "week-02-field-research-and-technical-analysis",
+    "title": "Field Research and Technical Analysis",
+    "dateRange": "Feb 16 - Feb 20, 2026",
+    "focus": "Community research support, data processing, and systems-level technical analysis.",
+    "outcomes": [
+      "Supported field interviews in Mapandan for PandaChain transparency research",
+      "Assisted in audio-to-text transcription to accelerate response analysis",
+      "Conducted workflow analysis on HRIS, biometric, and accounting software integrations"
+    ],
+    "blockers": []
+  },
+  {
+    "week": 3,
+    "slug": "week-03-nodejs-learning-and-research-continuation",
+    "title": "Node.js Learning and Research Continuation",
+    "dateRange": "Feb 23 - Feb 27, 2026",
+    "focus": "Strengthening Node.js fundamentals and extending medication-adherence research.",
+    "outcomes": [
+      "Built small web app exercises to reinforce Node.js concepts",
+      "Analyzed traffic behavior patterns and medication adherence barriers",
+      "Started frontend visualization planning for ongoing research outputs"
+    ],
+    "blockers": []
+  },
+  {
+    "week": 4,
+    "slug": "week-04-medtrack-core-build-and-auth-ui",
+    "title": "MediTrack Core Build and Auth UI Improvements",
+    "dateRange": "Mar 2 - Mar 6, 2026",
+    "focus": "Dashboard and authentication module development for the MediTrack initiative.",
+    "outcomes": [
+      "Implemented healthcare dashboard features for Hack4Mapandan",
+      "Enhanced login and registration user interfaces",
+      "Aligned development with medication adherence and prescription monitoring goals"
+    ],
+    "blockers": []
+  },
+  {
+    "week": 5,
+    "slug": "week-05-medtrack-platform-refinement",
+    "title": "MediTrack Platform Refinement",
+    "dateRange": "Mar 9 - Mar 13, 2026",
+    "focus": "Refinement of cross-platform MediTrack features and clinician-facing workflows.",
+    "outcomes": [
+      "Advanced mobile app development with Firebase integration and role-based authorization",
+      "Built web dashboard enhancements for physician prescription tracking",
+      "Implemented doctor-side patient filtering by area and polished visual design"
+    ],
+    "blockers": []
+  },
+  {
+    "week": 6,
+    "slug": "week-06-profile-avatar-and-notification-features",
+    "title": "Profile, Avatar, and Notification Features",
+    "dateRange": "Mar 16 - Mar 19, 2026",
+    "focus": "User profile personalization and notification capabilities for MediTrack.",
+    "outcomes": [
+      "Implemented edit profile features in the mobile app",
+      "Integrated image avatar upload support for web and mobile",
+      "Added push notification alerts to improve medication adherence reminders"
+    ],
+    "blockers": []
+  },
+  {
+    "week": 7,
+    "slug": "week-07-performance-security-and-ui-overhaul",
+    "title": "Performance, Security, and UI Overhaul",
+    "dateRange": "Mar 23 - Mar 27, 2026",
+    "focus": "System stability improvements, security enhancements, and cross-platform design consistency.",
+    "outcomes": [
+      "Fixed critical issues in the mobile app and reduced crash rates",
+      "Implemented privacy protections for sensitive healthcare data",
+      "Modernized UI for consistent user experience across web and mobile"
+    ],
+    "blockers": []
+  },
+  {
+    "week": 8,
+    "slug": "week-08-polish-stability-and-presentation",
+    "title": "Polish, Stability, and Presentation",
+    "dateRange": "Apr 7 - Apr 10, 2026",
+    "focus": "UI refinement, issue resolution, and product presentation preparation.",
+    "outcomes": [
+      "Refined web and mobile interfaces for better visual consistency",
+      "Resolved major technical issues that improved platform stability",
+      "Prepared a feature-focused MediTrack presentation deck"
+    ],
+    "blockers": []
+  },
+  {
+    "week": 9,
+    "slug": "week-09-final-hardening-and-end-to-end-testing",
+    "title": "Final Hardening and End-to-End Testing",
+    "dateRange": "Apr 13 - Apr 17, 2026",
+    "focus": "Final development stabilization and testing for Hack4Mapandan readiness.",
+    "outcomes": [
+      "Addressed remaining frontend and backend defects",
+      "Completed system checks and data validation across modules",
+      "Performed end-to-end testing and fixed edge-case bugs"
+    ],
+    "blockers": []
+  },
+  {
+    "week": 10,
+    "slug": "week-10-deployment-and-cross-platform-validation",
+    "title": "Deployment and Cross-Platform Validation",
+    "dateRange": "Apr 20 - Apr 25, 2026",
+    "focus": "Deployment troubleshooting, diagnostics, and final cross-platform integrity checks.",
+    "outcomes": [
+      "Resolved deployment-related issues in the Vercel environment",
+      "Executed diagnostic tests for mobile defects and connectivity stability",
+      "Validated synchronization and data integrity across platforms"
+    ],
+    "blockers": []
+  }
+]

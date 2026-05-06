@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Light defaults on :root; dark overrides when `.dark` is on <html> (Tailwind class strategy). */
+:root {
+  color-scheme: light;
+  --bg-page: #facc15;
+  /* Yellow */
+  --bg-card: #ffffff;
+  --surface-elevated: #facc15;
+  --surface-muted: #facc15;
+  --border-default: #000000;
+  --border-strong: #000000;
+  --text-primary: #000000;
+  --text-secondary: #000000;
+  --text-muted: #000000;
+  --accent: #ef4444;
+  /* Red */
+  --accent-soft-bg: #ef4444;
+  --accent-soft-text: #ffffff;
+  --accent-hover-text: #ffffff;
+  --pill-tech-bg: #000000;
+  --pill-tech-text: #ffffff;
+  --severity-high-bg: #000000;
+  --severity-high-text: #ffffff;
+  --severity-medium-bg: #000000;
+  --severity-medium-text: #ffffff;
+  --severity-low-bg: #000000;
+  --severity-low-text: #ffffff;
+}
+
+html.dark {
+  color-scheme: dark;
+  --bg-page: #000000;
+  /* Black */
+  --bg-card: #000000;
+  --surface-elevated: #000000;
+  --surface-muted: #000000;
+  --border-default: #22c55e;
+  /* Green */
+  --border-strong: #22c55e;
+  --text-primary: #ffffff;
+  --text-secondary: #ffffff;
+  --text-muted: #22c55e;
+  --accent: #22c55e;
+  /* Green */
+  --accent-soft-bg: #22c55e;
+  --accent-soft-text: #000000;
+  --accent-hover-text: #000000;
+  --pill-tech-bg: #22c55e;
+  --pill-tech-text: #000000;
+  --severity-high-bg: #ffffff;
+  --severity-high-text: #000000;
+  --severity-medium-bg: #ffffff;
+  --severity-medium-text: #000000;
+  --severity-low-bg: #ffffff;
+  --severity-low-text: #000000;
+}
+
+body {
+  @apply antialiased;
+  background-color: var(--bg-page);
+  color: var(--text-primary);
+}
+
+/* Rendered Markdown / HTML logs (remark-html output) — not styled by Typography plugin */
+.log-html h2 {
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.log-html p,
+.log-html li {
+  color: var(--text-secondary);
+  line-height: 1.625;
+}
+
+.log-html ul {
+  margin-top: 0.5rem;
+  padding-left: 1.25rem;
+  list-style-type: disc;
+}
+
+.log-html a {
+  color: var(--accent-soft-text);
+  text-decoration: underline;
+}

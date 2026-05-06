@@ -1,0 +1,62 @@
+[
+  {
+    "id": "pandachain-dms-auth-frontend",
+    "title": "PandaChain DMS Authentication Frontend",
+    "description": "Designed and delivered login/signup interfaces while establishing repository and workflow familiarity.",
+    "techStack": ["Frontend", "UI/UX", "GitHub"],
+    "completionDate": "2026-02-12",
+    "category": "Frontend",
+    "image": "/images/work/portfolio-foundation.svg",
+    "featured": true,
+    "highlights": [
+      "Built and completed login/signup UI flow",
+      "Collaborated through GitHub repository workflows",
+      "Aligned interface work with project onboarding requirements"
+    ]
+  },
+  {
+    "id": "community-research-and-systems-analysis",
+    "title": "Community Research and Systems Analysis",
+    "description": "Supported field interviews, data transcription, and integration analysis for organizational systems.",
+    "techStack": ["Research", "Documentation", "Systems Analysis"],
+    "completionDate": "2026-02-20",
+    "category": "Research",
+    "image": "/images/work/research-workflow.svg",
+    "featured": false,
+    "highlights": [
+      "Assisted field interview activities in Mapandan",
+      "Processed interview audio into analyzable text",
+      "Analyzed integration patterns for HRIS, biometrics, and accounting software"
+    ]
+  },
+  {
+    "id": "meditrack-platform-development",
+    "title": "MediTrack Platform Development",
+    "description": "Built, refined, and stabilized core web and mobile features for medication adherence workflows.",
+    "techStack": ["Frontend", "Mobile", "Firebase", "Testing"],
+    "completionDate": "2026-04-25",
+    "category": "Frontend",
+    "image": "/images/work/seo-audit.svg",
+    "featured": true,
+    "highlights": [
+      "Implemented dashboard, authentication, profile, avatar, and notification features",
+      "Improved reliability through diagnostics, defect fixes, and end-to-end testing",
+      "Validated cross-platform synchronization and deployment readiness"
+    ]
+  },
+  {
+    "id": "internship-portfolio-and-activity-log",
+    "title": "Data-Driven Internship Portfolio and Activity Log",
+    "description": "Created a modular Next.js portfolio that renders internship outputs from local JSON and Markdown.",
+    "techStack": ["Next.js", "TypeScript", "Tailwind CSS", "Markdown"],
+    "completionDate": "2026-05-06",
+    "category": "Documentation",
+    "image": "/images/work/portfolio-foundation.svg",
+    "featured": false,
+    "highlights": [
+      "Implemented dynamic logs with static generation and metadata",
+      "Separated filtering logic from UI components for maintainability",
+      "Enabled easy updates by editing content files only"
+    ]
+  }
+]
