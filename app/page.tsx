@@ -153,6 +153,7 @@ export default function HomePage() {
                   className="mt-6 inline-flex min-h-14 items-center border-4 border-[var(--border-default)] bg-[var(--accent)] px-8 text-sm font-black uppercase text-white shadow-[8px_8px_0px_0px_var(--border-default)] hover:translate-x-[8px] hover:translate-y-[8px] hover:shadow-none transition-all"
                 >
                   Read weekly details
+                  <span className="sr-only"> for Week {log.week}: {log.title}</span>
                 </Link>
               </article>
             ))}
@@ -211,6 +212,7 @@ export default function HomePage() {
                   className="mt-8 inline-flex min-h-14 w-full items-center justify-center border-4 border-[var(--border-default)] bg-[var(--bg-page)] px-8 text-sm font-black uppercase shadow-[8px_8px_0px_0px_var(--border-default)] hover:translate-x-[8px] hover:translate-y-[8px] hover:shadow-none transition-all"
                 >
                   Read more
+                  <span className="sr-only"> about Week {log.week}: {log.title}</span>
                 </Link>
               </article>
             ))}

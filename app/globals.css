@@ -15,9 +15,9 @@
   --text-primary: #000000;
   --text-secondary: #000000;
   --text-muted: #000000;
-  --accent: #ef4444;
-  /* Red */
-  --accent-soft-bg: #ef4444;
+  --accent: #dc2626;
+  /* Darker Red for Accessibility */
+  --accent-soft-bg: #dc2626;
   --accent-soft-text: #ffffff;
   --accent-hover-text: #ffffff;
   --pill-tech-bg: #000000;

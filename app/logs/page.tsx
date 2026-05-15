@@ -30,6 +30,7 @@ export default async function LogsIndexPage() {
                 className="mt-8 inline-flex min-h-12 items-center border-4 border-[var(--border-default)] bg-[var(--accent)] px-8 text-sm font-black uppercase text-white shadow-[4px_4px_0px_0px_var(--border-default)] hover:translate-x-[4px] hover:translate-y-[4px] hover:shadow-none transition-all"
               >
                 Read full entry
+                <span className="sr-only"> for Week {log.frontmatter.week}: {log.frontmatter.title}</span>
               </Link>
             </article>
           ))}
