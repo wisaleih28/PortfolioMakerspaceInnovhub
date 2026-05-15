@@ -139,6 +139,7 @@ export default function HomePage() {
                 <p className="mt-3 text-base font-bold uppercase text-[var(--text-primary)]">{log.focus}</p>
                 <Link
                   href={`/logs/${log.slug}`}
+                  aria-label={`Read details for Week ${log.week}: ${log.title}`}
                   className="mt-6 inline-flex min-h-14 items-center border-4 border-[var(--border-default)] bg-[var(--accent)] px-8 text-sm font-black uppercase text-white shadow-[8px_8px_0px_0px_var(--border-default)] hover:translate-x-[8px] hover:translate-y-[8px] hover:shadow-none transition-all"
                 >
                   Read weekly details
@@ -189,7 +190,11 @@ export default function HomePage() {
                 <p className="inline-block border-2 border-[var(--border-default)] bg-[var(--accent)] px-2 py-1 text-xs font-black uppercase tracking-widest text-[var(--bg-page)] shadow-[4px_4px_0px_0px_var(--border-default)]">Week {log.week}</p>
                 <h3 className="mt-6 text-2xl font-black uppercase leading-tight">{log.title}</h3>
                 <p className="mt-4 text-base font-bold uppercase text-[var(--text-primary)]">{log.focus}</p>
-                <Link href={`/logs/${log.slug}`} className="mt-8 inline-flex min-h-14 w-full items-center justify-center border-4 border-[var(--border-default)] bg-[var(--bg-page)] px-8 text-sm font-black uppercase shadow-[8px_8px_0px_0px_var(--border-default)] hover:translate-x-[8px] hover:translate-y-[8px] hover:shadow-none transition-all">
+                <Link
+                  href={`/logs/${log.slug}`}
+                  aria-label={`Read more about Week ${log.week}: ${log.title}`}
+                  className="mt-8 inline-flex min-h-14 w-full items-center justify-center border-4 border-[var(--border-default)] bg-[var(--bg-page)] px-8 text-sm font-black uppercase shadow-[8px_8px_0px_0px_var(--border-default)] hover:translate-x-[8px] hover:translate-y-[8px] hover:shadow-none transition-all"
+                >
                   Read more
                 </Link>
               </article>
