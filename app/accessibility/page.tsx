@@ -1,6 +1,5 @@
 import { PortfolioMain } from "@/components/portfolio-shell";
 import { SectionHeading } from "@/components/section-heading";
-
 export default function AccessibilityPage() {
   return (
     <PortfolioMain>

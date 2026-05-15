@@ -43,12 +43,14 @@ export default function HomePage() {
             <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:flex-wrap">
               <Link
                 href="/work"
+                aria-label="Browse my portfolio work"
                 className="inline-flex min-h-14 items-center justify-center border-4 border-[var(--border-default)] bg-[var(--accent)] px-8 text-base font-black uppercase text-white shadow-[8px_8px_0px_0px_var(--border-default)] hover:translate-x-[8px] hover:translate-y-[8px] hover:shadow-none transition-all"
               >
                 Browse Portfolio
               </Link>
               <Link
                 href="/logs"
+                aria-label="View my weekly internship logs"
                 className="inline-flex min-h-14 items-center justify-center border-4 border-[var(--border-default)] bg-[var(--accent)] px-8 text-base font-black uppercase text-white shadow-[8px_8px_0px_0px_var(--border-default)] hover:translate-x-[8px] hover:translate-y-[8px] hover:shadow-none transition-all"
               >
                 View Weekly Logs
@@ -88,7 +90,11 @@ export default function HomePage() {
                 Selected highlights from internship projects covering frontend implementation, research, and system validation.
               </p>
             </div>
-            <Link href="/work" className="inline-flex min-h-14 items-center border-4 border-[var(--border-default)] bg-[var(--accent)] px-8 text-sm font-black uppercase text-white shadow-[8px_8px_0px_0px_var(--border-default)] hover:translate-x-[8px] hover:translate-y-[8px] hover:shadow-none transition-all">
+            <Link
+              href="/work"
+              aria-label="View all project highlights"
+              className="inline-flex min-h-14 items-center border-4 border-[var(--border-default)] bg-[var(--accent)] px-8 text-sm font-black uppercase text-white shadow-[8px_8px_0px_0px_var(--border-default)] hover:translate-x-[8px] hover:translate-y-[8px] hover:shadow-none transition-all"
+            >
               View all work
             </Link>
           </div>
@@ -120,7 +126,11 @@ export default function HomePage() {
                 Week-by-week progress from OJT activities, features, audits, and deployment tasks.
               </p>
             </div>
-            <Link href="/logs" className="inline-flex min-h-14 items-center border-4 border-[var(--border-default)] bg-[var(--accent)] px-8 text-sm font-black uppercase text-[var(--bg-page)] shadow-[8px_8px_0px_0px_var(--border-default)] hover:translate-x-[8px] hover:translate-y-[8px] hover:shadow-none transition-all">
+            <Link
+              href="/logs"
+              aria-label="Open the full list of weekly logs"
+              className="inline-flex min-h-14 items-center border-4 border-[var(--border-default)] bg-[var(--accent)] px-8 text-sm font-black uppercase text-[var(--bg-page)] shadow-[8px_8px_0px_0px_var(--border-default)] hover:translate-x-[8px] hover:translate-y-[8px] hover:shadow-none transition-all"
+            >
               Open all weekly logs
             </Link>
           </div>
@@ -159,6 +169,7 @@ export default function HomePage() {
           </p>
           <Link
             href="/work"
+            aria-label="Contact me about your next project"
             className="mt-10 inline-flex min-h-16 items-center border-4 border-[var(--border-default)] bg-[var(--bg-card)] px-10 text-xl font-black uppercase text-[var(--text-primary)] shadow-[12px_12px_0px_0px_var(--border-default)] hover:translate-x-[12px] hover:translate-y-[12px] hover:shadow-none transition-all"
           >
             Contact Me
@@ -180,7 +191,11 @@ export default function HomePage() {
         <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:px-8">
           <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-6">
             <h2 className="text-4xl font-black uppercase tracking-tighter sm:text-5xl">My Articles</h2>
-            <Link href="/logs" className="inline-flex min-h-14 items-center border-4 border-[var(--border-default)] bg-[var(--accent)] px-8 text-sm font-black uppercase text-white shadow-[8px_8px_0px_0px_var(--border-default)] hover:translate-x-[8px] hover:translate-y-[8px] hover:shadow-none transition-all">
+            <Link
+              href="/logs"
+              aria-label="Explore all my weekly articles"
+              className="inline-flex min-h-14 items-center border-4 border-[var(--border-default)] bg-[var(--accent)] px-8 text-sm font-black uppercase text-white shadow-[8px_8px_0px_0px_var(--border-default)] hover:translate-x-[8px] hover:translate-y-[8px] hover:shadow-none transition-all"
+            >
               Explore all logs
             </Link>
           </div>

@@ -47,6 +47,7 @@ export default async function WorkPage({ searchParams }: WorkPageProps) {
           <div className="mt-4 flex flex-wrap gap-3">
             <Link
               href="/work"
+              aria-label="Show all projects"
               className={`inline-flex min-h-12 items-center border-4 border-[var(--border-default)] px-6 text-sm font-black uppercase transition-all ${
                 !params.category && !params.tech
                   ? "bg-[var(--accent)] text-white shadow-none translate-x-[4px] translate-y-[4px]"
@@ -59,6 +60,7 @@ export default async function WorkPage({ searchParams }: WorkPageProps) {
               <Link
                 key={category}
                 href={buildFilterHref(category, params.tech)}
+                aria-label={`Filter by ${category}`}
                 className={`inline-flex min-h-12 items-center border-4 px-6 text-sm font-black uppercase transition-all ${
                   params.category === category
                     ? "border-[var(--border-default)] bg-[var(--accent)] text-white shadow-none translate-x-[4px] translate-y-[4px]"
@@ -76,6 +78,7 @@ export default async function WorkPage({ searchParams }: WorkPageProps) {
               <Link
                 key={tech}
                 href={buildFilterHref(params.category, tech)}
+                aria-label={`Filter by ${tech}`}
                 className={`inline-flex min-h-12 items-center border-4 px-6 text-sm font-black uppercase transition-all ${
                   params.tech === tech
                     ? "border-[var(--border-default)] bg-[var(--accent)] text-white shadow-none translate-x-[4px] translate-y-[4px]"
